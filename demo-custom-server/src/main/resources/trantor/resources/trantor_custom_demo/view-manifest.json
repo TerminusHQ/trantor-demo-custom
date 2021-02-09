@@ -1,0 +1,18 @@
+[
+  {
+    "key": "List",
+    "name": "班级列表覆盖",
+    "type": "Form",
+    "forModel": "terminus_trantor_demo_Classes",
+    "template": "classes/classes-list-view.xml",
+    "isDefault": false
+  },
+  {
+    "key": "Edit",
+    "name": "班级Form",
+    "type": "Form",
+    "forModel": "terminus_trantor_demo_Classes",
+    "template": "classes/classes-form-view.xml",
+    "isDefault": false
+  }
+]

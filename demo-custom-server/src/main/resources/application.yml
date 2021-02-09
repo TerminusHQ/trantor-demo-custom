@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    include: >
+      trantor
+
+trantor:
+  # 模型元信息定义类
+  mainModule: trantor_custom_demo
+  embedModules: # trantor.yml 中定义的模块 key
+    - terminus_trantor_demo
+  enabledModuleKeys: terminus_trantor_demo

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>io.terminus.trantor</groupId>
+        <artifactId>demo-custom</artifactId>
+        <version>0.14.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>demo-custom-api</artifactId>
+
+    <dependencies>
+        <!--        引入trantor api依赖 -->
+        <dependency>
+            <groupId>io.terminus.trantor</groupId>
+            <artifactId>api</artifactId>
+        </dependency>
+
+        <!--        引入trantor 扩展api依赖 -->
+        <dependency>
+            <groupId>io.terminus.trantor</groupId>
+            <artifactId>custom-api</artifactId>
+        </dependency>
+
+        <!--     引入标准模块依赖   -->
+        <dependency>
+            <groupId>io.terminus.trantor</groupId>
+            <artifactId>demo-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
+</project>

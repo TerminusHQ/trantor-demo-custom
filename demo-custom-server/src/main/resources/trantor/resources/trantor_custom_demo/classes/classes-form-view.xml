@@ -1,0 +1,13 @@
+<View>
+    <Form model="terminus_trantor_demo_Classes" key="form">
+        <Fields>
+            <Field name="name"/>
+            <Field name="headTeacherName"/>
+        </Fields>
+        <Actions>
+            <Action type="Submit" label="二开模块创建" action="terminus_trantor_demo_Student_ClassesExtServerAction::save"
+                    after="GoBack"/>
+            <Action type="Create" label="标准模块创建" action="terminus_trantor_demo_Classes_create" after="GoBack"/>
+        </Actions>
+    </Form>
+</View>

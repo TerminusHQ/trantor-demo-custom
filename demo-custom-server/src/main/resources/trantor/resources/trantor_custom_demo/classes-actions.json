@@ -1,0 +1,21 @@
+[
+  {
+    "key": "listAll",
+    "forModel": "terminus_trantor_demo_Classes",
+    "extra": {
+      "dataSource": "Action",
+      "actionKey": "terminus_trantor_demo_Classes_ClassesExtServerAction",
+      "target": "terminus_trantor_demo_Classes_List",
+      "openViewType": "Self"
+    }
+  },
+  {
+    "key": "toEdit",
+    "forModel": "terminus_trantor_demo_Classes",
+    "extra": {
+      "dataSource": "Empty",
+      "target": "terminus_trantor_demo_Classes_Edit",
+      "openViewType": "Self"
+    }
+  }
+]
